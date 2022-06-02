@@ -1,0 +1,60 @@
+package com.example.kt_truongquy;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class KT1Activity extends AppCompatActivity {
+
+    private EditText editCMND;
+    private  EditText editPhoneNumber;
+    private EditText editAddress;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_kt1);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("KT Số 1");
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+        mappingElement();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+
+            default: break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void mappingElement() {
+        editCMND =  findViewById(R.id.CMND);
+        editPhoneNumber = findViewById(R.id.phoneNumber);
+        editAddress = findViewById(R.id.address);
+    }
+
+    public void updateHandler(View view) {
+        Toast.makeText(KT1Activity.this, "Đã cập nhật", Toast.LENGTH_SHORT).show();
+    }
+
+    public void resetHandler(View view) {
+        editCMND.setText("");
+        editPhoneNumber.setText("");
+        editAddress.setText("");
+        editCMND.requestFocus();
+    }
+}
