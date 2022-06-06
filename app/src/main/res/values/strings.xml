@@ -1,3 +1,102 @@
 <resources>
     <string name="app_name">KT_TruongQuy</string>
+
+    <string-array name="students">
+        <item>Nguyễn Trường Quý</item>
+        <item>Đặng Anh Kiệt</item>
+        <item>Phạm Huỳnh Nhật Huy</item>
+        <item>Bùi Minh Thiên</item>
+        <item>Đỗ Gia Bảo</item>
+        <item>Lê Thanh Huy</item>
+        <item>Trần Minh Quang</item>
+        <item>Lê Phú Phúc</item>
+        <item>Huỳnh Đức Lộc</item>
+        <item>Nguyễn Văn Trung Trực</item>
+        <item>Nguyễn Thị Bảo Trân</item>
+        <item>Huỳnh Hữu Lý</item>
+        <item>Phạm Minh Đức</item>
+        <item>Trần Đức Nhân</item>
+        <item>Nguyễn Tấn Đạt</item>
+        <item>Lê Huế Anh</item>
+        <item>Đinh Nguyễn Trường Hải</item>
+        <item>Chế Phương Nam</item>
+        <item>Nguyễn Chí Cường</item>
+        <item>Nguyễn Trần Quang Tuyến</item>
+        <item>Nguyễn Thanh Minh Nhựt</item>
+        <item>Huỳnh Thành Đạt</item>
+        <item>Nguyễn Huỳnh Trung Tính</item>
+        <item>Đặng Thụy Thanh Duy</item>
+        <item>Nguyễn Xuân Trường</item>
+        <item>Trượng Lệ Hào</item>
+        <item>Nguyễn Thị Thanh Tuyền</item>
+        <item>Đoàn Tường Vy</item>
+        <item>Lê Đức Lợi</item>
+        <item>Trần Hiếu Nghĩa</item>
+    </string-array>
+
+    <string-array name="provinces">
+        <item>An Giang</item>
+        <item>Bà Rịa – Vũng Tàu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đà Nẵng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Nội</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hậu Giang</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>TP Hồ Chí Minh</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+    </string-array>
 </resources>

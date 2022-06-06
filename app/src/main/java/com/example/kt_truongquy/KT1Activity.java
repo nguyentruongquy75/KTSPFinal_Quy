@@ -5,6 +5,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -35,6 +36,18 @@ public class KT1Activity extends AppCompatActivity {
                 onBackPressed();
                 return true;
 
+            case R.id.menu1:
+                Toast.makeText(KT1Activity.this, "Bạn chọn Menu 1", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.menu2:
+                Toast.makeText(KT1Activity.this, "Bạn chọn Menu 2", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.menu3:
+                Toast.makeText(KT1Activity.this, "Bạn chọn Menu 3", Toast.LENGTH_SHORT).show();
+                break;
+
             default: break;
         }
 
@@ -48,7 +61,7 @@ public class KT1Activity extends AppCompatActivity {
     }
 
     public void updateHandler(View view) {
-        Toast.makeText(KT1Activity.this, "Đã cập nhật", Toast.LENGTH_SHORT).show();
+        Toast.makeText(KT1Activity.this , "Đã cập nhật", Toast.LENGTH_SHORT).show();
     }
 
     public void resetHandler(View view) {
@@ -56,5 +69,11 @@ public class KT1Activity extends AppCompatActivity {
         editPhoneNumber.setText("");
         editAddress.setText("");
         editCMND.requestFocus();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mymenu, menu);
+        return true;
     }
 }

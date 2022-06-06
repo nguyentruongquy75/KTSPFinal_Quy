@@ -5,10 +5,12 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class KT2Activity extends AppCompatActivity {
 
@@ -37,6 +39,18 @@ public class KT2Activity extends AppCompatActivity {
                 onBackPressed();
                 return true;
 
+            case R.id.menu1:
+                Toast.makeText(KT2Activity.this, "Bạn chọn Menu 1", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.menu2:
+                Toast.makeText(KT2Activity.this, "Bạn chọn Menu 2", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.menu3:
+                Toast.makeText(KT2Activity.this, "Bạn chọn Menu 3", Toast.LENGTH_SHORT).show();
+                break;
+
             default: break;
         }
 
@@ -51,5 +65,11 @@ public class KT2Activity extends AppCompatActivity {
         String chi=arrChi[namDuong%12];
 
         result.setText(can +" " + chi);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mymenu, menu);
+        return true;
     }
 }
