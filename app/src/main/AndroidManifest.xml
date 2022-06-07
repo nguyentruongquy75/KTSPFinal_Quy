@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KT_TruongQuy">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Listview3Activity"
+            android:exported="false" />
+        <activity
             android:name=".Listview2Activity"
             android:exported="false" />
         <activity

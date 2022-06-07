@@ -22,4 +22,12 @@
         android:text="Listview 2"
         android:layout_marginTop="20dp"
         />
+
+    <Button
+        android:id="@+id/listView3Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listview 3"
+        android:layout_marginTop="20dp"
+        />
 </LinearLayout>

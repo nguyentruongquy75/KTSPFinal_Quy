@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -57,7 +58,8 @@ public class Listview2Activity extends AppCompatActivity {
                 return true;
 
             case R.id.menu1:
-                Toast.makeText(Listview2Activity.this, "Bạn chọn Menu 1", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Listview2Activity.this, ProfileActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.menu2:

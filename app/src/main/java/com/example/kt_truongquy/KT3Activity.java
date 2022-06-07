@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class KT3Activity extends AppCompatActivity {
 
-    Button listView1Btn, listView2Btn;
+    Button listView1Btn, listView2Btn, listView3Btn;
     Intent intent;
 
     @Override
@@ -28,6 +28,7 @@ public class KT3Activity extends AppCompatActivity {
 
         listView1Btn = findViewById(R.id.listView1Btn);
         listView2Btn = findViewById(R.id.listView2Btn);
+        listView3Btn = findViewById(R.id.listView3Btn);
 
 
         listView1Btn.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +43,14 @@ public class KT3Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(KT3Activity.this, Listview2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        listView3Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(KT3Activity.this, Listview3Activity.class);
                 startActivity(intent);
             }
         });
@@ -63,7 +72,8 @@ public class KT3Activity extends AppCompatActivity {
                 return true;
 
             case R.id.menu1:
-                Toast.makeText(KT3Activity.this, "Bạn chọn Menu 1", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(KT3Activity.this, ProfileActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.menu2:

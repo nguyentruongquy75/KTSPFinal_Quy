@@ -93,7 +93,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu1:
-                Toast.makeText(MainActivity.this, "Bạn chọn Menu 1", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.menu2:
