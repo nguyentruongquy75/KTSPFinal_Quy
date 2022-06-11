@@ -53,11 +53,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.kt4:
-                i.putExtra("data", "Danh sách tuyến");
+                i.putExtra("data", "Tra cứu sản phẩm");
+
                 break;
 
             case R.id.kt5:
-                i.putExtra("data", "Tra cứu sản phẩm");
+                i = new Intent(MainActivity.this, KT6Activity.class);
                 break;
 
         }

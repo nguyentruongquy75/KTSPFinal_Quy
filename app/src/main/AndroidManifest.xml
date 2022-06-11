@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KT_TruongQuy">
         <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KT6Activity"
+            android:exported="false" />
+        <activity
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
